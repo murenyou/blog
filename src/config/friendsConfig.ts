@@ -28,7 +28,7 @@ export const friendsConfig: FriendLink[] = [
 			"https://www.lxlovo.top/png.png",
 		desc: "飞一个爱写文的菜鸡。",
 		siteurl: "https://blog.lxlovo.top",
-		tags: ["Blog"],
+		tags: ["神"],
 		weight: 10, // 权重，数字越大排序越靠前
 		enabled: true, // 是否启用true
 	},
@@ -48,6 +48,17 @@ export const friendsConfig: FriendLink[] = [
 			"https://dongjianying.xyz/_astro/2.g0rWXCmt_ZRPm2Q.webp",
 		desc: "这是我的个人博客，记录我的学习和生活点滴，分享我的学习经验和见解。希望在这里能与志同道合的朋友们交流和成长！",
 		siteurl: "https://dongjianying.xyz",
+		tags: ["Blog"],
+		weight: 10, // 权重，数字越大排序越靠前
+		enabled: true, // 是否启用true
+	},
+
+	{
+		title: "Zero - 浮生",
+		imgurl:
+			"https://vtdd.vip/_astro/avatar.ryzKiMN3_19g6Gw.webp",
+		desc: "浮生一刹万般皆舍.",
+		siteurl: "https://vtdd.vip",
 		tags: ["Blog"],
 		weight: 10, // 权重，数字越大排序越靠前
 		enabled: true, // 是否启用true
