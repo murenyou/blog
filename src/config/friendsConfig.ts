@@ -92,7 +92,7 @@ export const friendsConfig: FriendLink[] = [
 		{
 		title: "Hzの小站",
 		imgurl:
-			"https://blog.yumeacg.com/usr/uploads/2026/04/3297893167.webp",
+			"https://img.mikufans520.top/file/1770113724723_1000780877.webp",
 		desc: "关于自己碎碎念念和分享个人建站以来的经验和教训以及相关技术分享类型的个人博客",
 		siteurl: "https://blog.yumeacg.com",
 		tags: ["Blog"],
