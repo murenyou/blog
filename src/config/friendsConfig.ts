@@ -88,6 +88,19 @@ export const friendsConfig: FriendLink[] = [
 		weight: 10, // 权重，数字越大排序越靠前
 		enabled: true, // 是否启用true
 	},
+
+		{
+		title: "Hzの小站",
+		imgurl:
+			"https://blog.yumeacg.com/usr/uploads/2026/04/3297893167.webp",
+		desc: "关于自己碎碎念念和分享个人建站以来的经验和教训以及相关技术分享类型的个人博客",
+		siteurl: "https://blog.yumeacg.com",
+		tags: ["Blog"],
+		weight: 10, // 权重，数字越大排序越靠前
+		enabled: true, // 是否启用true
+	},
+
+	
 ];
 
 // 获取启用的友链并进行排序
