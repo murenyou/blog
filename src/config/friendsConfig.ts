@@ -25,7 +25,7 @@ export const friendsConfig: FriendLink[] = [
 	{
 		title: "萧小晓",
 		imgurl:
-			"https://www.lxlovo.top/png.png",
+			"/assets/friends/",
 		desc: "飞一个爱写文的菜鸡。",
 		siteurl: "https://blog.lxlovo.top",
 		tags: ["神"],

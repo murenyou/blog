@@ -63,7 +63,7 @@ export const sponsorConfig: SponsorConfig = {
 		{
 			name: "站点投入",
 			avatar:
-				"https://www.lxlovo.top/png.png",
+				"/assets/friends/",
 			amount: "¥144",
 			date: "2026-06-28",
 		},
