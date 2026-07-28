@@ -435,16 +435,20 @@ html.is-page-transitioning .banner-home-text-overlay {
     transform: translateX(-100%);
     opacity: 0;
 }
-/* Ken Burns 旋转木马效果 — 纯放大，配合 LQIP 过渡切换 */
+/* Ken Burns 旋转木马效果 - 交叉淡入淡出 */
 @keyframes kenburns {
     from { transform: scale(1); }
     to { transform: scale(1.1) translate(-2%, -1%); }
 }
 .effect-kenburns .slide-item {
-    transition-property: opacity;
+    opacity: 0;
+    transition: opacity 800ms ease-in-out;
+    animation: kenburns var(--carousel-interval, 5000ms) ease-out infinite;
+    animation-play-state: paused;
 }
 .effect-kenburns .slide-item.active {
-    animation: kenburns var(--carousel-interval, 5000ms) ease-out forwards;
+    opacity: 1;
+    animation-play-state: running;
 }
 
 /* 当banner被禁用时的布局样式 */
@@ -523,22 +527,15 @@ html[data-wallpaper-mode="fullscreen"] .absolute.w-full.z-30.no-banner-layout {
     }
 }
 
-/* 移动端暗色模式优化 */
+/* 移动端暗色模式文字阴影优化（仅横幅/全屏壁纸模式） */
 @media (max-width: 1023px) and (prefers-color-scheme: dark) {
-    .banner-home-text-overlay {
-        background: linear-gradient(
-            to top,
-            rgba(0, 0, 0, 0.8) 0%,
-            rgba(0, 0, 0, 0.4) 50%,
-            transparent 100%
-        );
-    }
-
-    .banner-title {
+    html.dark[data-wallpaper-mode="banner"] .banner-title,
+    html.dark[data-wallpaper-mode="fullscreen"] .banner-title {
         text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
     }
 
-    .banner-subtitle {
+    html.dark[data-wallpaper-mode="banner"] .banner-subtitle,
+    html.dark[data-wallpaper-mode="fullscreen"] .banner-subtitle {
         text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
     }
 }
@@ -681,7 +678,8 @@ html[data-wallpaper-mode="fullscreen"] .absolute.w-full.z-30.no-banner-layout {
     position: fixed !important;
     inset: 0 !important;
     width: 100% !important;
-    height: 100% !important;
+    height: 100vh !important;
+    height: 100lvh !important;
     z-index: var(--overlay-z-index, -1) !important;
     opacity: var(--overlay-opacity, 0.8) !important;
     pointer-events: none !important;
@@ -700,6 +698,8 @@ html[data-wallpaper-mode="fullscreen"] .absolute.w-full.z-30.no-banner-layout {
     object-fit: cover !important;
     object-position: center !important;
     filter: blur(var(--overlay-blur, 0px));
+    /* 放大图片，让模糊后的暗角被容器 overflow:hidden 裁掉 */
+    transform: scale(1.05);
 }
 
 /* Overlay 模式隐藏 Banner 专属元素 */
