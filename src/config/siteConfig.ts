@@ -76,7 +76,7 @@ export const siteConfig: SiteConfig = {
 		logo: {
 			type: "image",
 			value: "assets/images/logo.png",
-			alt: "🍀",
+			alt: "",
 		},
 		// 导航栏标题
 		title: "萧小晓博客",
@@ -102,13 +102,13 @@ export const siteConfig: SiteConfig = {
 		// 友链页面开关
 		friends: true,
 		// 打赏页面开关
-		sponsor: true,
+		sponsor: false,
 		// 留言板页面开关，需要配置评论系统
 		guestbook: true,
 		// 番组计划页面开关，含追番、游戏、书籍和音乐
 		bangumi: false,
 		// 相册页面开关
-		gallery: true,
+		gallery: false,
 		// 追番页面开关
 		anime: false,
 	},
