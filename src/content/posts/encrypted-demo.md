@@ -25,7 +25,7 @@ slug: encrypted-demo
 
 ## 图片
 
-![Firefly](./images/1.avif)
+![Firefly](https://www.lxlovo.top/png.pmg)
 
 ## GitHub 仓库卡片
 
