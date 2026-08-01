@@ -89,12 +89,23 @@ export const friendsConfig: FriendLink[] = [
 		enabled: true, // 是否启用true
 	},
 
-		{
+	{
 		title: "Hzの小站",
 		imgurl:
 			"https://img.mikufans520.top/file/1770113724723_1000780877.webp",
 		desc: "关于自己碎碎念念和分享个人建站以来的经验和教训以及相关技术分享类型的个人博客",
 		siteurl: "https://blog.yumeacg.com",
+		tags: ["Blog"],
+		weight: 10, // 权重，数字越大排序越靠前
+		enabled: true, // 是否启用true
+	},
+
+	{
+		title: "二次元论坛",
+		imgurl:
+			"https://p.qlogo.cn/gh/892876555/892876555/0",
+		desc: "按下F逃离世界！",
+		siteurl: "https://www.ecylt.top/",
 		tags: ["Blog"],
 		weight: 10, // 权重，数字越大排序越靠前
 		enabled: true, // 是否启用true
