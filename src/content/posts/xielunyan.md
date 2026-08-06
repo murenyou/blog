@@ -1,6 +1,6 @@
 ---
 title: "觉醒写轮眼"
-published: 2026-08-6
+published: 2026-08-06
 tags: [随笔, 脑洞]
 category: 原创
 draft: false
