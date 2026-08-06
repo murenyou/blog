@@ -25,7 +25,7 @@ export const friendsConfig: FriendLink[] = [
 	{
 		title: "萧小晓",
 		imgurl:
-			"/assets/friends/png.png",
+			"https://blog.lxlovo.top/assets/friends/png.png",
 		desc: "飞一个爱写文的菜鸡。",
 		siteurl: "https://blog.lxlovo.top",
 		tags: ["神"],
@@ -106,6 +106,16 @@ export const friendsConfig: FriendLink[] = [
 			"https://p.qlogo.cn/gh/892876555/892876555/0",
 		desc: "按下F逃离世界！",
 		siteurl: "https://www.ecylt.top/",
+		tags: ["Blog"],
+		weight: 10, // 权重，数字越大排序越靠前
+		enabled: true, // 是否启用true
+	},
+		{
+		title: "Xixmu",
+		imgurl:
+			"https://xixmu.top/_astro/head_ima.rsW3s28l_1KtIxl.avif",
+		desc: "在记忆干枯前描绘",
+		siteurl: "https://xixmu.top",
 		tags: ["Blog"],
 		weight: 10, // 权重，数字越大排序越靠前
 		enabled: true, // 是否启用true
