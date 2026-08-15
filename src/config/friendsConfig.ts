@@ -120,6 +120,16 @@ export const friendsConfig: FriendLink[] = [
 		weight: 10, // 权重，数字越大排序越靠前
 		enabled: true, // 是否启用true
 	},
+			{
+		title: "西尔维尔的博客",
+		imgurl:
+			"https://wsrv.nl/?url=avatars.githubusercontent.com/u/184231508?s=400&u=0a370792ba6bbb95a04d309171b562bcd7283a0f&v=3",
+		desc: "Per Aspera Ad Astra",
+		siteurl: "https://silvaire.top/",
+		tags: ["Blog"],
+		weight: 10, // 权重，数字越大排序越靠前
+		enabled: true, // 是否启用true
+	},
 
 	
 ];
