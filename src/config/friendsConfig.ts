@@ -120,12 +120,32 @@ export const friendsConfig: FriendLink[] = [
 		weight: 10, // 权重，数字越大排序越靠前
 		enabled: true, // 是否启用true
 	},
-			{
+		{
 		title: "西尔维尔的博客",
 		imgurl:
 			"https://wsrv.nl/?url=avatars.githubusercontent.com/u/184231508?s=400&u=0a370792ba6bbb95a04d309171b562bcd7283a0f&v=3",
 		desc: "Per Aspera Ad Astra",
 		siteurl: "https://silvaire.top/",
+		tags: ["Blog"],
+		weight: 10, // 权重，数字越大排序越靠前
+		enabled: true, // 是否启用true
+	},
+	{
+		title: "临渊羡鱼",
+		imgurl:
+			"https://x1anyu.cn/assets/images/avatar.png",
+		desc: "久有羡鱼意，不甘空望川. 躬身耕岁月，步步赴清澜",
+		siteurl: "https://x1anyu.cn",
+		tags: ["Blog"],
+		weight: 10, // 权重，数字越大排序越靠前
+		enabled: true, // 是否启用true
+	},
+		{
+		title: "左沐の手册",
+		imgurl:
+			"https://tu.mstzuomu.space/file/头像/1786942479049_azumahead.jpg",
+		desc: "热爱是拯救无趣人生的唯一途径a",
+		siteurl: "https://azuma.mstzuomu.space",
 		tags: ["Blog"],
 		weight: 10, // 权重，数字越大排序越靠前
 		enabled: true, // 是否启用true
