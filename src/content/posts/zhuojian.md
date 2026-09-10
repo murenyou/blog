@@ -1,6 +1,6 @@
 ---
 title: "兄弟，干他【1】【捉奸】"
-published: 2026-08-06
+published: 2026-09-10
 tags: [随笔, 脑洞]
 category: 原创
 draft: false
