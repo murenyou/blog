@@ -160,6 +160,16 @@ export const friendsConfig: FriendLink[] = [
 		weight: 10, // 权重，数字越大排序越靠前
 		enabled: true, // 是否启用true
 	},
+		{
+		title: "簌雪",
+		imgurl:
+			"https://ezhana.github.io/snowiest/favicon.ico",
+		desc: "白雪又簌簌，飘飘似何如？",
+		siteurl: "https://ezhana.github.io/snowiest/",
+		tags: ["Blog"],
+		weight: 10, // 权重，数字越大排序越靠前
+		enabled: true, // 是否启用true
+	},
 
 	
 ];
